@@ -1,0 +1,72 @@
+Main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+text-align-last: bottom;
+background-color: darkkhaki;
+color: black;
+}
+
+nav {
+    flex-direction: column;
+    font-size: larger;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5%;
+    background-color: khaki;
+    color: black;
+}
+
+body {
+    background-color: green;
+}
+
+a {
+    padding: 5px;
+
+}
+
+aside {
+    border: 3px;
+    border-color: darkkhaki;
+    align-items: center;
+}
+
+/* .img-responsive {
+    height: 50%;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(/Users/hansreichgelt/Bootcamp/Homework/Portfolio/assets/dogparkpic.JPG)
+    background-size: cover;
+    background-position: center; */
+}
+
+main {
+background-color: dodgerblue;
+display: flex;
+flex: 1 1 0;
+max-width: 1200px;
+margin: 2% auto;
+}
+
+.project-large {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px dashed black;
+    padding: 2px
+}
+
+#about {
+    text-align: center;
+    font-size: large;
+}
+
+
+
