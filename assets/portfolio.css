@@ -1,7 +1,23 @@
+
+
 Main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article {
+    width: 25%;
+    height: 50%;
+    border: 2px solid black;
+    padding: 2px;
+    float: left;
+}
+
+p {
+    font-size: large;
+    margin-bottom: 25px;
 }
 
 header {
@@ -18,49 +34,36 @@ nav {
     font-size: larger;
     display: flex;
     justify-content: flex-end;
-    margin-top: 5%;
-    background-color: khaki;
-    color: black;
+    margin-top: .25%;
 }
 
 body {
     background-color: green;
 }
 
-a {
-    padding: 5px;
-
+#Work-Experience {
+    justify-items: center;
 }
 
+a {
+    border: 2px;
+    border-style: solid;
+    padding: 5px;
+}
+
+
 aside {
+    flex-direction: row
     border: 3px;
     border-color: darkkhaki;
     align-items: center;
 }
 
-/* .img-responsive {
-    height: 50%;
-    width: 100%;
-    margin-bottom: 25px;
+ .img-responsive {
+    height: 15%;
+    width: 20%;
     background-image: url(/Users/hansreichgelt/Bootcamp/Homework/Portfolio/assets/dogparkpic.JPG)
-    background-size: cover;
-    background-position: center; */
-}
-
-main {
-background-color: dodgerblue;
-display: flex;
-flex: 1 1 0;
-max-width: 1200px;
-margin: 2% auto;
-}
-
-.project-large {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border: 2px dashed black;
-    padding: 2px
+   
 }
 
 #about {
@@ -68,5 +71,34 @@ margin: 2% auto;
     font-size: large;
 }
 
+footer {
+    background-color: darkkhaki;
+    position: static;
+    text-align: center;
+}
+
+#SEO {
+block-size: 100px;
+}
+
+#GIT {
+    
+}
+
+#WEB {
+
+}
+
+
+
+
+
+form {
+
+}
+
+button {
+    background-color: gray;
+}
 
 
