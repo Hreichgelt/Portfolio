@@ -105,10 +105,17 @@ main a {
     overflow: hidden;
 }
 /* adding seo, portfolio, and project to css styling */
-#seo {
-    background-image: url("./imgs/backpacking.JPG");
+#maps {
+    background-image: url("./imgs/deathvalley.JPG") ;
     background-size: cover;
     width: 100%;
+    margin: 4px 0px;
+}
+
+#seo {
+    background-image: url("./imgs/zengarden.jpg");
+    background-size: contain;
+    width: 10%;
     margin: 4px 0px;
 }
 /* changed background size to fit for smaller projects */
@@ -120,7 +127,7 @@ main a {
 }
 /* changing background image */
 /* changed background size to fit for smaller projects */
-#project {
+#first-site {
     background-image: url("./imgs/coolestdog.jpeg");
     background-size: contain;
     width: 10%;
