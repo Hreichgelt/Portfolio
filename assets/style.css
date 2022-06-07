@@ -10,7 +10,7 @@ nav {
     display: flex;
     flex-direction: column;
     position: relative;
-    bottom: 42px;
+    bottom: 100px;
     justify-content: space-between;
     margin-top: .25%;
 }
@@ -33,11 +33,10 @@ a {
 /* formatting text to be more assessible and easy to read */
 p {
     font-size: 18px;
-    width: 99.5%;
     letter-spacing: 1px;
     line-height: 50px;
     border: 2px black solid;
-    /* margin-bottom: 25px; */
+
 }
 
 section {
@@ -167,6 +166,13 @@ a div h2 {
 #about h2{
     font-size: 25px;
     text-align: center;
+    margin: 3px;
+    padding: 3px;
+}
+
+.intro {
+    margin: 5px;
+    padding: 5px;
 }
 
 footer {
@@ -182,6 +188,6 @@ button {
     border-image-outset: 10px;
 }
 
-.documents a  {
+/* .documents a  {
 
-}
+} */

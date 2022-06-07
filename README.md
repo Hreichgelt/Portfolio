@@ -19,7 +19,7 @@ Click any of the navigation links at the top to quickly jump to that article, or
 Click any of the titled images in the main section to jump to another page. Placeholders take you to Google, but the others are of my work. If you would like to see my LinkedIn Profile, please click the "Visit Professional Profile" button. 
 
 ## VISUALS 
-![Portfolio](./assets/portfolio.png)
+![Portfolio]("./assets/portfolio.png")
 
 
 ## AUTHORS AND ACKNOWLEDGMENTS
