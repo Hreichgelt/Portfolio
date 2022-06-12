@@ -1,7 +1,7 @@
 
 
 /* grouping nav a together changing display from flex to inline-flex */
-nav a {
+/* nav a {
     display: flex;
     flex-wrap: wrap;
     background-color: aliceblue;
@@ -10,23 +10,18 @@ nav a {
 
 nav {
     font-size: larger;
-
-    /* color: white; */
     border-radius: 10px;
     display: flex;
-    /* flex-direction: column; */
-    /* position: relative; */
-    /* bottom: 60px; */
     justify-content: space-between;
     margin-top: 250px;
-}
+} */
 
-a {
+/* a {
     border: 2px;
     border-style: solid;
     border-radius: 55px;
     padding: 5px 5px 5px 5px
-}
+} */
 
 /* @media screen and (min-width: 769px) {
  
@@ -39,12 +34,12 @@ a {
     }
 } */
 
-@media only screen and (max-width: 480px) {
+/* @media only screen and (max-width: 480px) {
     nav a {
         float: none;
         width: 100%;
     }
-}
+} */
 
 /* 
 @media screen and (min-width: 480px) {
@@ -54,10 +49,9 @@ a {
 
 .img-responsive {
     border-radius: 50%;
-    height: 15%;
-    width: 20%;
-    background-image: url("./assets/imgs/dogpark.jpeg")
-    border-style: none;
+    height: 100px;
+    border-style: none;  
+    z-index: 99;
 }
 
 /* formatting text to be more assessible and easy to read */
@@ -75,27 +69,34 @@ section {
     border-bottom: 3px, black, double;
     width: 95%;
     margin: auto;
+    padding: 48px;
 }
 
 /* adding space between */
 header {
+padding: 25px;
 width: 100%;
 display: flex;
 justify-content: space-between;
 align-items: center;
-text-align-last: bottom;
-background-image: url("./imgs/longs.jpg");
-background-position: left;
+/* text-align-last: bottom; */
+background-image: url("./imgs/longsblurred.jpg"); 
+background-size: cover ;
+/* background-position: center; */
+background-repeat: no-repeat; 
 /* background-image: radial-gradient(); */
-color: black;
-border-bottom: 5px, black,;
+/* background-color: red; */
+border-bottom: 5px black solid;
+/* filter: blur(8px);
+-webkit-filter: blur(8px); */
 }
 
 
+
 h1 {
-    font-size: 60px;
+    font-size: 40px;
     font-family: cursive;
-    color: black
+    color: black;
     text-align: top;
 }
 
@@ -225,6 +226,20 @@ footer {
     text-align: center;
     overflow: hidden;
 }
+
+@media only screen and (min-width: 960px) {
+    header {
+      justify-content: left;
+      align-items: flex-end;
+      
+    }
+    .img-responsive {
+      height: 200px;
+    }
+    h1 {
+      color: aliceblue;
+    }
+  } 
 
 /* .documents a  {
 
