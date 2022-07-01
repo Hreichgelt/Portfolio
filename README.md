@@ -21,7 +21,7 @@ Click any of the titled images in the main section to jump to another page. Plac
 
 ## VISUALS
 
-![Portfolio]()
+![Portfolio](/assets/imgs/screenshot.png)
 
 ## AUTHORS AND ACKNOWLEDGMENTS
 
