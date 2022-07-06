@@ -5,6 +5,10 @@
   z-index: 99;
 }
 
+.nav-link {
+  color: aliceblue
+}
+
 p {
   font-size: 20px;
   letter-spacing: 1px;
