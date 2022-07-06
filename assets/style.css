@@ -5,7 +5,6 @@
   z-index: 99;
 }
 
-/* formatting text to be more assessible and easy to read */
 p {
   font-size: 20px;
   letter-spacing: 1px;
@@ -60,13 +59,11 @@ main {
   justify-content: space-around;
 }
 
-/* dont set height or width or float */
 article {
   padding: 2px 2px 2px 2px;
   height: 300px;
 }
 
-/* adding no repeat, width, height, and text decoration to none */
 main a {
   background-repeat: no-repeat;
   text-align: center;
@@ -78,7 +75,6 @@ main a {
   overflow: hidden;
 }
 
-/* adding seo, portfolio, and project to css styling */
 #maps {
   background-image: url("./imgs/deathvalley.JPG");
   background-size: cover;
@@ -94,7 +90,7 @@ main a {
   background-size: cover;
 }
 
-/* changed background size to fit for smaller projects */
+
 #portfolio {
   background-image: url("./imgs/cooldog.jpeg");
   background-size: contain;
@@ -103,8 +99,6 @@ main a {
   background-position: center;
 }
 
-/* changing background image */
-/* changed background size to fit for smaller projects */
 #first-site {
   background-image: url("./imgs/coolestdog.jpeg");
   background-size: contain;
@@ -143,7 +137,6 @@ a div h2 {
   padding: 8px;
 }
 
-/* changed id for connection to html */
 #about h2 {
   font-size: 25px;
   text-align: center;
