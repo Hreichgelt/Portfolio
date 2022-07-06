@@ -9,6 +9,10 @@
   color: aliceblue
 }
 
+#name {
+  font-size: 2rem;
+}
+
 p {
   font-size: 20px;
   letter-spacing: 1px;
@@ -28,7 +32,7 @@ header {
   padding: 25px;
   width: 100%;
   display: flex;
-  background-image: url("./imgs/longsblurred.jpg");
+  background-image: url("./imgs/longs.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   border-bottom: 5px black solid;
