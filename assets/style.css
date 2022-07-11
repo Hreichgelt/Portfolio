@@ -83,12 +83,22 @@ main a {
   overflow: hidden;
 }
 
-#maps {
+#trailblazers {
   background-image: url("./imgs/deathvalley.JPG");
   background-size: cover;
   width: 100%;
   margin: 4px 0px;
   background-position: center;
+  border-radius: 2rem;
+}
+
+#maps {
+  background-image: url("./imgs/morningbeach.jpg");
+  background-size: contain;
+  margin: 4px 0px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 2rem;
 }
 
 #seo {
@@ -96,6 +106,7 @@ main a {
   background-size: contain;
   margin: 4px 0px;
   background-size: cover;
+  border-radius: 2rem;
 }
 
 
@@ -105,6 +116,7 @@ main a {
   margin: 4px 0px;
   background-size: cover;
   background-position: center;
+  border-radius: 2rem;
 }
 
 #first-site {
@@ -113,6 +125,7 @@ main a {
   margin: 4px 0px;
   background-size: cover;
   background-position: center;
+  border-radius: 2rem;
 }
 
 #passwordGenerator {
@@ -120,6 +133,7 @@ main a {
   background-size: contain;
   margin: 4px 0px;
   background-size: cover;
+  border-radius: 2rem;
 }
 
 #codequiz {
@@ -127,6 +141,7 @@ main a {
   background-size: contain;
   margin: 4px 0px;
   background-size: cover;
+  border-radius: 2rem;
 }
 
 a div {
