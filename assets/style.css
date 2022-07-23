@@ -110,7 +110,7 @@ main a {
 }
 
 
-#portfolio {
+#scheduler {
   background-image: url("./imgs/cooldog.jpeg");
   background-size: contain;
   margin: 4px 0px;
@@ -136,7 +136,7 @@ main a {
   border-radius: 2rem;
 }
 
-#codequiz {
+#chatterdays {
   background-image: url("./imgs/london.jpg");
   background-size: contain;
   margin: 4px 0px;
