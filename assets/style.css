@@ -101,7 +101,7 @@ main a {
   border-radius: 2rem;
 }
 
-#seo {
+#scheduler {
   background-image: url("./imgs/zengarden.jpg");
   background-size: contain;
   margin: 4px 0px;
@@ -109,8 +109,16 @@ main a {
   border-radius: 2rem;
 }
 
+#passwordGenerator {
+  background-image: url("./imgs/Wapiti.JPG");
+  background-size: contain;
+  margin: 4px 0px;
+  background-size: cover;
+  border-radius: 2rem;
+}
 
-#scheduler {
+
+#jate {
   background-image: url("./imgs/cooldog.jpeg");
   background-size: contain;
   margin: 4px 0px;
@@ -128,21 +136,15 @@ main a {
   border-radius: 2rem;
 }
 
-#passwordGenerator {
-  background-image: url("./imgs/Wapiti.JPG");
-  background-size: contain;
-  margin: 4px 0px;
-  background-size: cover;
-  border-radius: 2rem;
-}
 
-#chatterdays {
+
+/* #chatterdays {
   background-image: url("./imgs/london.jpg");
   background-size: contain;
   margin: 4px 0px;
   background-size: cover;
   border-radius: 2rem;
-}
+} */
 
 a div {
   width: 100%;
