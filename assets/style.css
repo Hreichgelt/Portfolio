@@ -176,6 +176,10 @@ a div h2 {
   padding: 3px;
 }
 
+#projects {
+  color: aliceblue;
+}
+
 .intro .brandStatement {
   margin: 5px;
   padding: 5px;
