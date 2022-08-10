@@ -83,6 +83,13 @@ main a {
   overflow: hidden;
 }
 
+/* .dropdown-item li a {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  } */
+
 #trailblazers {
   background-image: url("./imgs/deathvalley.JPG");
   background-size: cover;
@@ -90,6 +97,9 @@ main a {
   margin: 4px 0px;
   background-position: center;
   border-radius: 2rem;
+}
+#trailblazers:hover {
+  
 }
 
 #maps {
